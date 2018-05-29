@@ -49,6 +49,7 @@
 
 % ---
 % Configurações do pacote backref
+
 % Usado sem a opção hyperpageref de backref
 \renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
 % Texto padrão antes do número das páginas
@@ -166,8 +167,7 @@
 % ----------------------------------------------------------
 % Introdução
 % ----------------------------------------------------------
-\chapter*[Introdução]{Introdução}
-\addcontentsline{toc}{chapter}{Introdução}
+\chapter{Introdução}
 
 O poder de processamento de um computador vem aumentando exponencialmente ao longo dos anos como previa a Lei de Moore, onde em 1965, Gordon E. Moore propôs que o avanço da tecnologia possibilitaria que o poder de processamento de um chip dobrasse a cada 18 meses.
 
@@ -175,7 +175,7 @@ O que define o poder de processamento de um computador é a quantidade de transi
 
 \begin{figure}[h!]
 	\includegraphics[width=\linewidth]{transistor.jpg}
-	\caption{Fonte: IEEE, 2017}
+	\caption{Densidade de transistores em chips ao longo dos anos. \cite{transistor2017}}
 	\label{fig:graph1}
 \end{figure}
 
@@ -227,7 +227,7 @@ Analogamente a experiencia, partimos da visão de sobreposição de estados para
 
 Em síntese, o elétron atravessou e rebateu na barreira simultaneamente, o chamado Tunelamento quântico.
 
-É completamente embasado nessas ideias que o computador quântico trabalha não mais com o bit clássico, mas sim com o qubit, que pode assumir todos os estados possíveis de uma palavra ao mesmo tempo, por exemplo, suponha uma palavra formada por dois qubits, pelas propriedades no supracitado, tal palavra pode assumir os quatro estados possíveis ao mesmo tempo: 00, 01, 10, 11. E consequentemente poderia ser encontrado qualquer um desses pares, em apenas uma passada. Matematicamente, segundo \cite{nielsen:2010} Nielsen (2010), esse fenômeno é chamado de superposição, que é a combinação linear dos estados dos qubits.
+É completamente embasado nessas ideias que o computador quântico trabalha não mais com o bit clássico, mas sim com o qubit, que pode assumir todos os estados possíveis de uma palavra ao mesmo tempo, por exemplo, suponha uma palavra formada por dois qubits, pelas propriedades no supracitado, tal palavra pode assumir os quatro estados possíveis ao mesmo tempo: 00, 01, 10, 11. E consequentemente poderia ser encontrado qualquer um desses pares, em apenas uma passada. Matematicamente, segundo \cite{nielsen:2010}, esse fenômeno é chamado de superposição, que é a combinação linear dos estados dos qubits.
 
 \chapter{Criptografia}
 
@@ -235,10 +235,12 @@ Sabendo que o poder computacional de um computador quântico é exponencialmente
 
 Para se ter uma ideia, a maior chave RSA decodificada que se têm notícia tinha 232 dígitos (768 bits), em novembro de 2009, utilizando centenas de processadores durante um período de 2 anos. Foi previsto que, com sorte, seria possível quebrar uma chave de 1024 bits na década seguinte dependendo da evolução dos algoritmos de fatoração e do poder computacional, mas ainda hoje isso não foi feito. O que garante que chaves RSA de 2048 bits ou maiores estão longe de serem consideradas frágeis para computadores convencionais.
 
-Mesmo com o tempo de quebra das chaves RSA se tornando polinomial, os algoritmos de criptografia atuais que usam criptografia simétrica ou funções hash (não é o caso do RSA), com o tamanho das chaves dobradas, ainda são considerados seguros para os computadores quânticos iniciais. 
+Mesmo com o tempo de quebra das chaves RSA se tornando polinomial, os algoritmos de criptografia atuais que usam criptografia simétrica ou funções hash (não é o caso do RSA), com o tamanho das chaves dobradas, ainda são considerados seguros para os computadores quânticos iniciais, como mostra \cite{bernstein2017}. 
 
 No entanto, devido à rápida evolução da computação quântica, a preocupação em relação a isso se elevou e surgiu uma nova área de estudo chamada de criptografia pós-quântica, onde ja se estabeleceu um protocolo para garantir a segurança do que estar por vir. Nele, é estudado a possibilidade de fazer a criptografia utilizando a mesma tecnologia (mecânica quântica) que está sendo desenvolvida nos computadores. A ideia é utilizar o mesmo principio da quebra de estado quântico, ou seja, do mesmo modo que um elemento perde as propriedades quânticas ao ser observado, isso aconteceria analogamente quando alguem tentasse decifrar um objeto encriptado, invalidando o mesmo.
 
+\chapter{Metodologia}
+A pesquisa terá um aspecto descritivo, explorando os aspectos da fundamentação da computação quântica, através da revisão bibliográfica de artigos e livros, para que se discuta os eventuais futuros problemas da criptografia pós-quântica, buscando consequentemente as possíveis soluções. 
 
 \include{abntex2-modelo-include-comandos}
 
@@ -252,11 +254,6 @@ No entanto, devido à rápida evolução da computação quântica, a preocupaç
 % ---
 % Conclusão
 % ---
-\chapter*[Considerações finais]{Considerações finais}
-\addcontentsline{toc}{chapter}{Considerações finais}
-
-\lipsum[31-33]
-
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
 % ----------------------------------------------------------
@@ -266,8 +263,8 @@ No entanto, devido à rápida evolução da computação quântica, a preocupaç
 % Referências bibliográficas
 % ----------------------------------------------------------
 
-\bibliographystyle{apalike}
-\bibliography{quantica}
+\bibliographystyle{abntex2-alf}
+\bibliography{referencias}
 
 
 \phantompart

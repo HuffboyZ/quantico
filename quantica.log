@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.28)  28 MAY 2018 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.29)  29 MAY 2018 08:51
 entering extended mode
 **./quantica.tex
 (quantica.tex
@@ -1060,7 +1060,7 @@ Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip265
 LaTeX Info: Redefining \newblock on input line 591.
-LaTeX Info: Redefining \cite on input line 618.
+LaTeX Info: Redefining \cite on input line 862.
 \ABCItoken=\toks29
 )
 Package color Info: Redefining color blue on input line 90.
@@ -1217,10 +1217,10 @@ l.151
 ] (quantica.toc) [2
 
 ]
-<transistor.jpg, id=38, 654.19406pt x 371.13657pt>
+<transistor.jpg, id=36, 654.19406pt x 371.13657pt>
 File: transistor.jpg Graphic file (type jpg)
 <use transistor.jpg>
-Package pdftex.def Info: transistor.jpg  used on input line 177.
+Package pdftex.def Info: transistor.jpg  used on input line 176.
 (pdftex.def)             Requested size: 455.0pt x 258.12888pt.
  [3
 
@@ -1228,32 +1228,30 @@ Package pdftex.def Info: transistor.jpg  used on input line 177.
  <./transistor.jpg>] [4] [5
 
 ]
-<sobreposicao.jpg, id=54, 1607.3428pt x 853.94618pt>
+<sobreposicao.jpg, id=52, 1607.3428pt x 853.94618pt>
 File: sobreposicao.jpg Graphic file (type jpg)
 <use sobreposicao.jpg>
-Package pdftex.def Info: sobreposicao.jpg  used on input line 207.
+Package pdftex.def Info: sobreposicao.jpg  used on input line 206.
 (pdftex.def)             Requested size: 455.0pt x 241.7354pt.
  [6
 
  <./sobreposicao.jpg>]
-
-LaTeX Warning: Citation `nielsen:2010' on page 7 undefined on input line 217.
-
-<tunelj1.jpg, id=61, 200.75pt x 200.75pt>
+<tunelj1.jpg, id=59, 200.75pt x 200.75pt>
 File: tunelj1.jpg Graphic file (type jpg)
 <use tunelj1.jpg>
-Package pdftex.def Info: tunelj1.jpg  used on input line 221.
+Package pdftex.def Info: tunelj1.jpg  used on input line 220.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
-<tunelj2.jpg, id=62, 200.75pt x 200.75pt>
+<tunelj2.jpg, id=60, 200.75pt x 200.75pt>
 File: tunelj2.jpg Graphic file (type jpg)
 <use tunelj2.jpg>
-Package pdftex.def Info: tunelj2.jpg  used on input line 222.
+Package pdftex.def Info: tunelj2.jpg  used on input line 221.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
-<tunelj3.jpg, id=63, 200.75pt x 200.75pt>
+<tunelj3.jpg, id=61, 200.75pt x 200.75pt>
 File: tunelj3.jpg Graphic file (type jpg)
 <use tunelj3.jpg>
-Package pdftex.def Info: tunelj3.jpg  used on input line 223.
+Package pdftex.def Info: tunelj3.jpg  used on input line 222.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1268,61 +1266,53 @@ No file abntex2-modelo-include-comandos.tex.
 \tf@brf=\write5
 \openout5 = `quantica.brf'.
 
- [10
 
-
-
-]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 bibitemlist
-)
-No file quantica.ind.
-[11
+) [10
+
+
 
 ]
 \tf@toc=\write6
 \openout6 = `quantica.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
  (quantica.aux (abntex2-modelo-include-comandos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
 Package rerunfilecheck Info: File `quantica.brf' has not changed.
-(rerunfilecheck)             Checksum: 85AEBB79DB574A6A32E8E6E226E9729F;49.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 84D335081D107EB3B9D9B52E72812C60;48.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
  ) 
 Here is how much of TeX's memory you used:
- 14027 strings out of 493305
- 212188 string characters out of 3129802
- 468303 words of memory out of 3000000
- 17257 multiletter control sequences out of 15000+200000
- 63172 words of font info for 87 fonts, out of 3000000 for 9000
+ 14016 strings out of 493305
+ 211973 string characters out of 3129802
+ 468212 words of memory out of 3000000
+ 17252 multiletter control sequences out of 15000+200000
+ 60083 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,38p,1228b,512s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
-c}<C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx1
-2.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
-mr10.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
-m/lmr12.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmri10.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmri12.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmss12.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmss17.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/lm/lmssbx10.pfb>
-Output written on quantica.pdf (12 pages, 1041767 bytes).
+c}<C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10
+.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lm
+r12.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm
+/lmri10.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmri12.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmss12.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmss17.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/lm/lmssbx10.pfb>
+Output written on quantica.pdf (11 pages, 1019588 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 21098 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 20578 words of extra memory for PDF output out of 20736 (max. 10000000)
 
