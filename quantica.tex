@@ -187,25 +187,15 @@ Entre esse e outros problemas gerados com a alta densidade de transistores, como
 Com o aumento de pesquisas na área da computação quântica, ela vem se tornando cada vez mais possível de ser uma das opções para o futuro, e atualmente vem mostrando um grande potencial quando utilizada para certos tipos de operações.
 Na teoria, a computação quântica pode chegar a ser milhares de vezes mais rápida que a convencional, pelo fato de ter seu poder de processamento exponencialmente proporcional à quantidade de qubits utilizados, pois, diferentemente da convencional, ele trata não trata os bits apenas como 0 e 1, mas sim como a superposição dos bits através de sua probabilidade. 
 
-O grande desafio para o desenvolvimento da computação quântica é como implementar essa teoria na pratica, e até que ponto os algoritmos da computação convencional podem ser remodelados para a quântica. Um dos métodos achados para representar o sistema de qubits foi através do spin de elétrons, mas ainda com muita dificuldade pois, atualmente, para conseguir resultados confiáveis, ou seja, sem interferência externa (ruído), é preciso isola-los e resfria-los à quase 0 Kelvin. Mas estima-se que um computador quântico funcional com 49 qubits já tem o poder de processamento equivalente aos computadores atuais. Em 2018, empresas como Google e IBM já anunciaram que desenvolveram chips quânticos na casa dos 70 e 50 qubits, porém ainda sem um total controle dos qubits, que, ao serem colocados em conjunto dificulta a tarefa de conseguir uma resposta limpa, sem “ruídos”. 
+O grande desafio para o desenvolvimento dessa nova tecnologia é como implementar essa teoria na pratica, e até que ponto os algoritmos da computação convencional podem ser remodelados para a quântica. Um dos métodos achados para representar o sistema de qubits foi através do spin de elétrons, mas ainda com muita dificuldade pois, atualmente, para conseguir resultados confiáveis, ou seja, sem interferência externa (ruído), é preciso isola-los e resfria-los à quase 0 Kelvin. Mas estima-se que um computador quântico funcional com 49 qubits já tem o poder de processamento equivalente aos computadores atuais. Em 2018, empresas como Google e IBM já anunciaram que desenvolveram chips quânticos na casa dos 70 e 50 qubits, porém ainda sem um total controle dos qubits, que, ao serem colocados em conjunto dificulta a tarefa de conseguir uma resposta limpa, sem “ruídos”. 
 
-Junto a esse crescimento da computação quântica, veio o aumento da preocupação em até que ponto ela seria uma ameaça para os algoritmos de encriptação atuais, que é o que possibilita a utilização da internet para troca de informações sigilosas, sejam elas transações bancarias, e-mails, documentos pessoais ou até mesmo documentos sigilosos de grandes empresas ou do governo.
+Junto a essa evolução, veio o aumento da preocupação em até que ponto ela seria uma ameaça para os algoritmos de encriptação atuais, que é o que possibilita a utilização da internet para troca de informações sigilosas, sejam elas transações bancarias, e-mails, documentos pessoais ou até mesmo documentos sigilosos de grandes empresas ou do governo.
 
 \chapter{Objetivos}
 
 \index{geral}O objetivo deste projeto de pesquisa é apresentar uma revisão sobre os aspectos fundamentais da computação quântica, tais como seu funcionamento e representação em comparação com o modelo de computação clássica adotado no século XXI, suas consequências em certos aspectos sociais contemporâneos, como segurança, privacidade de dados e informar sobre o avanço da computação pós-quântica frente a ameaça da quebra de algoritmos clássicos da criptografia. 
 
 \chapter{Fundamentação Teórica}
-
-Sabendo que o poder computacional de um computador quântico é exponencialmente proporcional ao número de bits quânticos operacionais, diferentemente do computador normal onde é linearmente proporcional ao número de bits, é de se esperar que possamos ter problemas relacionados à quebra de segurança devido à enorme diferença entre os dois. Antes mesmo dessa nova tecnologia começar a se tornar realidade, já existiam pesquisadores pensando em como funcionaria os algoritmos onde houvesse a superposição dos bits, mesmo sem saber como de fato os qubits seriam fisicamente implementados. Um famoso exemplo é o algoritmo de Shor, proposto em seu artigo (1995), onde é mostrado como fazer a fatoração de um número utilizando qubits, o que é a base para quebrar um dos tipos de encriptação mais utilizado, o RSA. Mais especificamente, para quebrar esse algoritmo é preciso lidar com a fatoração de números primos enormes, o que poderia levar até centenas de milhares de anos para computadores convencionais atuais, mas já se sabe que utilizando computadores quânticos e o algoritmo de Shor, por exemplo, o problema que tem solução em tempo exponencial, passa a ser polinomial.
-
-Para se ter uma ideia, a maior chave RSA decodificada que se têm notícia tinha 232 dígitos (768 bits), em novembro de 2009, utilizando centenas de processadores durante um período de 2 anos. Foi previsto que, com sorte, seria possível quebrar uma chave de 1024 bits na década seguinte dependendo da evolução dos algoritmos de fatoração e do poder computacional, mas ainda hoje isso não foi feito. O que garante que chaves RSA de 2048 bits ou maiores estão longe de serem consideradas frágeis para computadores convencionais.
-
-Mesmo com o tempo de quebra das chaves RSA se tornando polinomial, os algoritmos de criptografia atuais que usam criptografia simétrica ou funções hash (não é o caso do RSA), com o tamanho das chaves dobradas, ainda são considerados seguros para os computadores quânticos iniciais. 
-
-No entanto, devido à rápida evolução da computação quântica, a preocupação em relação a isso se elevou e surgiu uma nova área de estudo chamada de criptografia pós-quântica, onde se estuda a possibilidade de fazer a criptografia utilizando a mesma tecnologia (mecânica quântica) que está sendo desenvolvida nos computadores.
-
-\chapter{Mecânica Quântica}
 
 Primordialmente, para a computação quântica ser entendida em sua essência, é necessário se entender o comportamento da realidade frente as regras da mecânica quântica. Diferentemente da mecânica clássica, uma mecânica determinista, onde é possível determinar o estado de uma partícula ao longo do tempo, ou até mesmo prever sua posição ou velocidade num futuro, a mecânica quântica se comporta de uma maneira antagônica ao determinismo, nela é impossível determinar o estado de uma partícula, apenas suas probabilidades, seja de posição ou de velocidade.
 
@@ -224,6 +214,8 @@ Embasado nessas ideias, Erwin Schrödinger, um físico teórico austríaco. Prop
 Essa simultaneidade se dá graças a coerência quântica, o estado onde a particula se mantém livre de perturbações do meio ambiente, como o vento ou o contato com a terra. Ao observar a particula (no caso abrir a caixa), o sistema irá ser perturbado, detruindo a coerência quântica.
 
 \section{Tunelamento Quântico}
+Analogamente a experiencia, partimos da visão de sobreposição de estados para o efeito de Tunelamento quântico, isto é, se partimos do meio da mecânica clássica, suponha que exista uma partícula que viaja no espaço com velocidade constante e exista uma barreira no meio desse espaço, logo, é evidente que se a partícula porta uma energia menor do que a energia da barreira, ela irá rebater na barreira e voltar. Porém, no âmbito quântico, se jogarmos um elétron contra uma barreira existe uma probabilidade finita e não nula, da partícula atravessar. 
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=1]{tunelj1.jpg}
@@ -233,11 +225,20 @@ Essa simultaneidade se dá graças a coerência quântica, o estado onde a parti
 	\label{fig:tunel0}
 \end{figure}
 
-Analogamente a experiencia, partimos da visão de sobreposição de estados para o efeito de Tunelamento quântico, isto é, se partimos do meio da mecânica clássica, suponha que exista uma partícula que viaja no espaço com velocidade constante e exista uma barreira no meio desse espaço, logo, é evidente que se a partícula porta uma energia menor do que a energia da barreira, ela irá rebater na barreira e voltar. Porém, no âmbito quântico, se jogarmos um elétron contra uma barreira existe uma probabilidade finita e não nula, da partícula atravessar.
-
 Em síntese, o elétron atravessou e rebateu na barreira simultaneamente, o chamado Tunelamento quântico.
 
-É completamente embasado nessas ideias que o computador quântico trabalha não mais com o bit clássico, mas sim com o qubit, que pode assumir todos os estados possíveis de uma palavra ao mesmo tempo, por exemplo, suponha uma palavra formada por dois qubits, pelas propriedades no supracitado, tal palavra pode assumir os quatro estados possíveis ao mesmo tempo: 00, 01, 10, 11. E consequentemente poderia ser encontrado qualquer um desses pares, em apenas uma passada.
+É completamente embasado nessas ideias que o computador quântico trabalha não mais com o bit clássico, mas sim com o qubit, que pode assumir todos os estados possíveis de uma palavra ao mesmo tempo, por exemplo, suponha uma palavra formada por dois qubits, pelas propriedades no supracitado, tal palavra pode assumir os quatro estados possíveis ao mesmo tempo: 00, 01, 10, 11. E consequentemente poderia ser encontrado qualquer um desses pares, em apenas uma passada. Matematicamente, segundo \cite{nielsen:2010} Nielsen (2010), esse fenômeno é chamado de superposição, que é a combinação linear dos estados dos qubits.
+
+\chapter{Criptografia}
+
+Sabendo que o poder computacional de um computador quântico é exponencialmente proporcional ao número de bits quânticos operacionais, diferentemente do computador normal onde é linearmente proporcional ao número de bits, é de se esperar que possamos ter problemas relacionados à quebra de segurança devido à enorme diferença entre os dois. Antes mesmo dessa nova tecnologia começar a se tornar realidade, já existiam pesquisadores pensando em como funcionaria os algoritmos onde houvesse a superposição dos bits, mesmo sem saber como de fato os qubits seriam fisicamente implementados. Um famoso exemplo é o algoritmo de Shor, proposto em seu artigo (1995), onde é mostrado como fazer a fatoração de um número utilizando qubits, o que é a base para quebrar um dos tipos de encriptação mais utilizado, o RSA. Mais especificamente, para quebrar esse algoritmo é preciso lidar com a fatoração de números primos enormes, o que poderia levar até centenas de milhares de anos para computadores convencionais atuais, mas já se sabe que utilizando computadores quânticos e o algoritmo de Shor, por exemplo, o problema que tem solução em tempo exponencial, passa a ser polinomial.
+
+Para se ter uma ideia, a maior chave RSA decodificada que se têm notícia tinha 232 dígitos (768 bits), em novembro de 2009, utilizando centenas de processadores durante um período de 2 anos. Foi previsto que, com sorte, seria possível quebrar uma chave de 1024 bits na década seguinte dependendo da evolução dos algoritmos de fatoração e do poder computacional, mas ainda hoje isso não foi feito. O que garante que chaves RSA de 2048 bits ou maiores estão longe de serem consideradas frágeis para computadores convencionais.
+
+Mesmo com o tempo de quebra das chaves RSA se tornando polinomial, os algoritmos de criptografia atuais que usam criptografia simétrica ou funções hash (não é o caso do RSA), com o tamanho das chaves dobradas, ainda são considerados seguros para os computadores quânticos iniciais. 
+
+No entanto, devido à rápida evolução da computação quântica, a preocupação em relação a isso se elevou e surgiu uma nova área de estudo chamada de criptografia pós-quântica, onde ja se estabeleceu um protocolo para garantir a segurança do que estar por vir. Nele, é estudado a possibilidade de fazer a criptografia utilizando a mesma tecnologia (mecânica quântica) que está sendo desenvolvida nos computadores. A ideia é utilizar o mesmo principio da quebra de estado quântico, ou seja, do mesmo modo que um elemento perde as propriedades quânticas ao ser observado, isso aconteceria analogamente quando alguem tentasse decifrar um objeto encriptado, invalidando o mesmo.
+
 
 \include{abntex2-modelo-include-comandos}
 
@@ -264,12 +265,13 @@ Em síntese, o elétron atravessou e rebateu na barreira simultaneamente, o cham
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-\bibliography{abntex2-modelo-references}
+
+\bibliographystyle{apalike}
+\bibliography{quantica}
 
 
 \phantompart
 
-\printindex
 
 
 \end{document}

@@ -1,15 +1,9 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: quantica.aux
 A level-1 auxiliary file: abntex2-modelo-include-comandos.aux
-I couldn't open database file abntex2-modelo-references.bib
----line 60 of file quantica.aux
- : \bibdata{abntex2-options,abntex2-modelo-references
- :                                                   }
-I'm skipping whatever remains of this command
-The style file: abntex2-alf.bst
+The style file: apalike.bst
 Database file #1: abntex2-options.bib
-+---------------------------------------------------------+
-| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
-| Em caso de dúvidas ou problemas com este estilo procure |
-| http://www.abntex.net.br/                               |
-+---------------------------------------------------------+
-(There was 1 error message)
+Warning--entry type for "abnt-url-package=url" isn't style-file defined
+--line 199 of file abntex2-options.bib
+Database file #2: quantica.bib
+Warning--empty year in abnt-url-package=url
+(There were 2 warnings)

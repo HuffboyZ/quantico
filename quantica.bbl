@@ -1,8 +1,11 @@
-\providecommand{\abntreprintinfo}[1]{%
- \citeonline{#1}}
-\setlength{\labelsep}{0pt}\begin{thebibliography}{}
-\providecommand{\abntrefinfo}[3]{}
-\providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.6 }
+\begin{thebibliography}{}
+
+\bibitem[aaaa, ]{abnt-url-package=url}
+aaaa.
+
+\bibitem[Nielsen and Chuang, 2010]{nielsen:2010}
+Nielsen, M.~A. and Chuang, I.~L. (2010).
+\newblock {\em Quantum Computation and Quantum Information}.
+\newblock Cambridge University Press, 10th edition.
 
 \end{thebibliography}
